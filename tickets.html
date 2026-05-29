@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tickets - Help Desk</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Help Desk - Tickets</h1>
+
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="reportar.html">Reportar</a> |
+      <a href="tickets.html">Tickets</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Lista de Tickets</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Usuario</th>
+            <th>Problema</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>TK-001</td>
+            <td>Janela</td>
+            <td>Fallo en switch de distribución piso 2</td>
+            <td>En progreso</td>
+          </tr>
+
+          <tr>
+            <td>TK-002</td>
+            <td>Carlos</td>
+            <td>Disco duro degradado en servidor de respaldo</td>
+            <td>Abierto</td>
+          </tr>
+
+          <tr>
+            <td>TK-003</td>
+            <td>María</td>
+            <td>Servicio de directorio activo no responde</td>
+            <td>Resuelto</td>
+          </tr>
+
+          <tr>
+            <td>TK-004</td>
+            <td>Pedro</td>
+            <td>Pérdida de conectividad en laboratorio de cómputo</td>
+            <td>Abierto</td>
+          </tr>
+
+          <tr>
+            <td>TK-005</td>
+            <td>Ana</td>
+            <td>Actualización fallida del sistema de virtualización</td>
+            <td>Resuelto</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Total de tickets registrados: 5</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Help Desk</p>
+  </footer>
+
+</body>
+</html>
