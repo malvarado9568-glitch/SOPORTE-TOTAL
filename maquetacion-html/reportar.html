@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportar Incidencia - Sistema Help Desk</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+
+<ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="reportar.html">Reportar Incidente</a></li>
+    <li><a href="tickets.html">Ver Tickets</a></li>
+</ul>
+
+<h1>Reportar Nueva Incidencia</h1>
+
+<p>Complete el siguiente formulario para registrar un incidente técnico.</p>
+
+<div class="alerta-exito">
+    Todos los reportes son revisados por el equipo de soporte técnico del Data Center.
+</div>
+
+<form action="#" method="post">
+
+    <label>Nombre Completo</label>
+    <input type="text" name="nombre" required>
+
+    <label>Correo Electrónico</label>
+    <input type="email" name="correo" required>
+
+    <label>Prioridad</label>
+    <select name="prioridad">
+        <option>Baja</option>
+        <option>Media</option>
+        <option>Alta</option>
+    </select>
+
+    <label>Descripción del Problema</label>
+    <textarea name="descripcion" placeholder="Describa el incidente reportado"></textarea>
+
+    <button type="submit" class="btn">
+        Enviar Reporte
+    </button>
+
+</form>
+
+
+</body>
+</html>
