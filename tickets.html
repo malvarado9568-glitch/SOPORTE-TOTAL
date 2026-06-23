@@ -1,30 +1,34 @@
-<!DOCTYPE html>
 
+```html
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tickets - Sistema Help Desk</title>
 
-
-<link rel="stylesheet" href="style.css">
-
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-
-<ul>
-    <li><a href="index.html">Inicio</a></li>
-    <li><a href="reportar.html">Reportar Incidente</a></li>
-    <li><a href="tickets.html">Ver Tickets</a></li>
-</ul>
+<nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="reportar.html">Reportar Incidente</a>
+    <a href="tickets.html">Ver Tickets</a>
+</nav>
 
 <h1>Listado de Tickets</h1>
+
+<p>
+    A continuación se muestran los tickets registrados en el sistema Help Desk
+    del Data Center de la Universidad Técnica de Manabí.
+</p>
 
 <div class="alerta-exito">
     Se muestran los tickets registrados en el sistema Help Desk.
 </div>
+
+<div class="tabla-responsive">
 
 <table>
     <tr>
@@ -35,46 +39,38 @@
     </tr>
 
     <tr>
-        <td>TK-001</td>
-        <td>Janela</td>
-        <td>Fallo en switch de distribución piso 2</td>
-        <td>En progreso</td>
-    </tr>
-
-    <tr>
-        <td>TK-002</td>
-        <td>Carlos</td>
-        <td>Disco duro degradado en servidor de respaldo</td>
+        <td>001</td>
+        <td>María Alvarado</td>
+        <td>Error de acceso al correo institucional</td>
         <td>Abierto</td>
     </tr>
 
     <tr>
-        <td>TK-003</td>
-        <td>María</td>
-        <td>Servicio de directorio activo no responde</td>
+        <td>002</td>
+        <td>Juan Pérez</td>
+        <td>Falla de conexión a la red</td>
+        <td>En Proceso</td>
+    </tr>
+
+    <tr>
+        <td>003</td>
+        <td>Ana López</td>
+        <td>Problema con impresora</td>
         <td>Resuelto</td>
     </tr>
 
     <tr>
-        <td>TK-004</td>
-        <td>Pedro</td>
-        <td>Pérdida de conectividad en laboratorio de cómputo</td>
-        <td>Abierto</td>
+        <td>004</td>
+        <td>Carlos Mendoza</td>
+        <td>Instalación de software académico</td>
+        <td>Pendiente</td>
     </tr>
 
-    <tr>
-        <td>TK-005</td>
-        <td>Ana</td>
-        <td>Actualización fallida del sistema de virtualización</td>
-        <td>Resuelto</td>
-    </tr>
 </table>
 
-<div class="card">
-    <h3>Total de Tickets Registrados</h3>
-    <p>5 tickets registrados actualmente en el sistema.</p>
 </div>
-
 
 </body>
 </html>
+```
+

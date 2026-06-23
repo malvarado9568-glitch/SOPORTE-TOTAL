@@ -1,18 +1,14 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Help Desk - Data Center</title>
 
-
-<link rel="stylesheet" href="style.css">
-
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 
 <img src="assets/img/logo.png" alt="Logo UTM" width="150">
 
@@ -20,11 +16,11 @@
 
 <p>Universidad Técnica de Manabí</p>
 
-<ul>
-    <li><a href="index.html">Inicio</a></li>
-    <li><a href="reportar.html">Reportar Incidente</a></li>
-    <li><a href="tickets.html">Ver Tickets</a></li>
-</ul>
+<nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="reportar.html">Reportar Incidente</a>
+    <a href="tickets.html">Ver Tickets</a>
+</nav>
 
 <h2>Bienvenido al Sistema Help Desk</h2>
 
@@ -36,23 +32,27 @@
 </p>
 
 <div class="alerta-exito">
-    Sistema operativo correctamente y disponible para los usuarios.
+    Sistema operando correctamente y disponible para los usuarios.
 </div>
 
 <h2>Resumen Estadístico</h2>
 
-<div class="card">
-    <h3>Tickets Activos</h3>
-    <p>12</p>
-    <p>Incidentes actualmente abiertos o en progreso que requieren atención del equipo técnico.</p>
-</div>
+<div class="dashboard">
 
-<div class="card">
-    <h3>Tickets Resueltos Hoy</h3>
-    <p>5</p>
-    <p>Incidentes cerrados satisfactoriamente durante la jornada actual.</p>
-</div>
+    <div class="card">
+        <h3>Tickets Activos</h3>
+        <p>12</p>
+        <p>Incidentes actualmente abiertos o en progreso que requieren atención del equipo técnico.</p>
+    </div>
 
+    <div class="card">
+        <h3>Tickets Resueltos Hoy</h3>
+        <p>5</p>
+        <p>Incidentes cerrados satisfactoriamente durante la jornada actual.</p>
+    </div>
+
+</div>
 
 </body>
 </html>
+

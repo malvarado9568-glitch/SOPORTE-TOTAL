@@ -1,3 +1,4 @@
+```css
 :root{
     --color-primario:#2563eb;
     --color-secundario:#1e40af;
@@ -47,33 +48,49 @@ p{
     margin-bottom:10px;
 }
 
-ul{
-    list-style:none;
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    background:#003366;
+    padding:15px;
+    border-radius:5px;
+    flex-wrap:wrap;
     margin:20px 0;
-    text-align:center;
 }
 
-ul li{
-    display:inline-block;
-    margin:0 10px;
-}
-
-ul li a{
+.navbar a{
+    color:white;
     text-decoration:none;
     background-color:var(--color-primario);
-    color:white;
     padding:10px 15px;
     border-radius:5px;
+    font-weight:bold;
 }
 
-ul li a:hover{
+.navbar a:hover{
     background-color:var(--color-secundario);
 }
 
-/* TARJETAS */
+/* DASHBOARD */
+
+.dashboard{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.dashboard .card{
+    flex:1;
+    min-width:250px;
+}
+
+/* CARDS */
 
 .card{
-    background-color:white;
+    background:white;
     padding:20px;
     margin-top:15px;
     border-radius:10px;
@@ -95,10 +112,15 @@ ul li a:hover{
     background-color:var(--color-secundario);
 }
 
-/* FORMULARIOS */
+/* FORMULARIO */
+
+.formulario{
+    max-width:700px;
+    margin:auto;
+}
 
 form{
-    background-color:white;
+    background:white;
     padding:20px;
     border-radius:10px;
     box-shadow:0 2px 5px rgba(0,0,0,0.2);
@@ -143,7 +165,11 @@ textarea{
     margin-top:15px;
 }
 
-/* TABLAS */
+/* TABLA */
+
+.tabla-responsive{
+    overflow-x:auto;
+}
 
 table{
     width:100%;
@@ -152,14 +178,40 @@ table{
     margin-top:20px;
 }
 
-table th,
-table td{
+th,
+td{
     border:1px solid #ddd;
-    padding:10px;
+    padding:12px;
     text-align:center;
 }
 
-table th{
+th{
     background-color:var(--color-primario);
     color:white;
 }
+
+/* RESPONSIVE */
+
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .dashboard{
+        flex-direction:column;
+    }
+
+    input,
+    select,
+    textarea{
+        width:100%;
+    }
+
+    table{
+        width:100%;
+    }
+
+}
+```
