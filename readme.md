@@ -1,38 +1,18 @@
-[12:55, 19/6/2026] 🔥MJAB🔥: # UI Kit Help Desk
+# HelpDesk - Sistema de Tickets
+
+*Materia:* [Pon tu materia aquí]  
+*Estudiante:* Janela  
+*Fecha:* 29/05/2026
 
 ## Descripción
-Biblioteca de componentes UI desarrollada con HTML5 y CSS3 para el sistema Help Desk.
+Sistema web básico para reportar y gestionar tickets de soporte técnico.
 
-## Componentes incluidos
+## Archivos del proyecto
+- index.html: Página principal
+- reportar.html: Formulario para reportar incidencias  
+- tickets.html: Lista de tickets creados
+- assets/img/: Imágenes del proyecto
+- assets/docs/: Documentos PDF
 
-### Botones
-- Botón Primario
-- Botón Secundario
-- Botón Peligro
-
-### Formularios
-- Input de texto
-- Input de correo
-- Select
-- Textarea
-
-### Cards
-- Tarjetas para visualización de tickets
-
-### Badges
-- Alta
-- Media
-- Baja
-
-## Tecnologías utilizadas
-- HTML5
-- CSS3
-- Git
-- GitHub
-
-## Estructura del proyecto
-
-```text
-index.html
-style.css
-README.md
+## Cómo usar
+Abrir index.html en cualquier navegador.# SOPORTE-TOTAL
